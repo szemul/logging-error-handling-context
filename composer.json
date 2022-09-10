@@ -1,0 +1,31 @@
+{
+    "name": "szemul/logging-error-handling-context",
+    "description": "Provides an error handler and logging context to manage contextual data to be injected into errors and log messages.",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0.0",
+        "jetbrains/phpstorm-attributes": "^1.0",
+        "mockery/mockery": "^1.0",
+        "phpstan/phpstan": "^1.8.5",
+        "phpunit/phpunit": "^9.5.5"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Szemul\\LoggingErrorHandlingContext\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Szemul\\LoggingErrorHandlingContext\\Test\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
