@@ -3,6 +3,9 @@
     "description": "Provides an error handler and logging context to manage contextual data to be injected into errors and log messages.",
     "license": "MIT",
     "minimum-stability": "stable",
+    "replace": {
+        "szemul/logging-error-handling": "^1.0.0"
+    },
     "require": {
         "php": "^8.0"
     },
